@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<providers>
+    <TemplateWatch dpi="120">
+        <Widget widget_type="SINGLEIMAGE">
+            <SingleImage y="0" x="0" data_type="DATA_BACKGROUND" label="layer 13 - 静态图" align="DIGIT_ALIGN_CENTER_LEFT" filter_color="0" offset_distance_y="0" type="static" res_dir_id="A020"/>
+        </Widget>
+        <Widget widget_type="DIGITALIMAGE">
+            <DigitalImage y="44" x="10" data_type="DATA_HOUR_HIGH" label="layer 12 - 数字选图" number_of_digits="0" align="DIGIT_ALIGN_CENTER_LEFT" filter_color="38129" offset_distance_y="0" type="static" res_dir_id="A019"/>
+        </Widget>
+        <Widget widget_type="DIGITALIMAGE">
+            <DigitalImage y="44" x="65" data_type="DATA_HOUR_LOW" label="layer 11 - 数字选图" number_of_digits="0" align="DIGIT_ALIGN_CENTER_LEFT" filter_color="38129" offset_distance_y="0" type="static" res_dir_id="A018"/>
+        </Widget>
+        <Widget widget_type="DIGITALIMAGE">
+            <DigitalImage y="118" x="10" data_type="DATA_MINITE_HIGH" label="layer 10 - 数字选图" number_of_digits="0" align="DIGIT_ALIGN_CENTER_LEFT" filter_color="38129" offset_distance_y="0" type="static" res_dir_id="A017"/>
+        </Widget>
+        <Widget widget_type="DIGITALIMAGE">
+            <DigitalImage y="118" x="65" data_type="DATA_MINITE_LOW" label="layer 9 - 数字选图" number_of_digits="0" align="DIGIT_ALIGN_CENTER_LEFT" filter_color="38129" offset_distance_y="0" type="static" res_dir_id="A016"/>
+        </Widget>
+        <Widget widget_type="MUTILLANGUAGE">
+            <MutilLanguage y="2" x="84" data_type="DATA_WEEK" label="layer 8 - 多语言" align="DIGIT_ALIGN_CENTER_LEFT" filter_color="40242" support_languages="en" single_language_img_num="7" default_language="en" type="static" res_dir_id="A015"/>
+        </Widget>
+        <Widget widget_type="MUTILWIDGET">
+            <MutilWidget y="20" data_type2="DATA_DATE" mutil_widget_count="3" x="111" data_type="DATA_MONTH" label="layer 7 - 多组件" align="DIGIT_ALIGN_CENTER_RIGHT" filter_color="40242" offset_distance_y="0" data_type1="DATA_SEPAR" type="static" internal_position="DIGIT_ALIGN_CENTER_LEFT" res_dir_id="A012"/>
+        </Widget>
+        <Widget widget_type="MUTILWIDGET">
+            <MutilWidget y="20" data_type2="DATA_DATE" mutil_widget_count="3" x="111" data_type="DATA_SEPAR" align="DIGIT_ALIGN_CENTER_RIGHT" filter_color="40242" offset_distance_y="0" data_type1="DATA_MONTH" type="static" internal_position="DIGIT_ALIGN_CENTER_CENTER" res_dir_id="A013"/>
+        </Widget>
+        <Widget widget_type="MUTILWIDGET">
+            <MutilWidget y="20" data_type2="DATA_SEPAR" mutil_widget_count="3" x="111" data_type="DATA_DATE" align="DIGIT_ALIGN_CENTER_RIGHT" filter_color="40242" offset_distance_y="0" data_type1="DATA_MONTH" type="static" internal_position="DIGIT_ALIGN_CENTER_RIGHT" res_dir_id="A014"/>
+        </Widget>
+        <Widget widget_type="DIGITALIMAGE">
+            <DigitalImage y="200" x="71" data_type="DATA_STEPS" label="layer 6 - 步数" number_of_digits="0" align="DIGIT_ALIGN_CENTER_RIGHT" filter_color="40242" offset_distance_y="0" type="static" res_dir_id="A011"/>
+        </Widget>
+        <Widget widget_type="MUTILWIDGET">
+            <MutilWidget y="220" data_type2="DATA_DISTANCEUNIT" mutil_widget_count="3" x="75" data_type="DATA_DISTANCEICON" label="layer 5 - 多组件" align="DIGIT_ALIGN_CENTER_RIGHT" filter_color="40242" offset_distance_y="0" data_type1="DATA_DISTANCE" type="static" internal_position="DIGIT_ALIGN_CENTER_LEFT" res_dir_id="A008"/>
+        </Widget>
+        <Widget widget_type="MUTILWIDGET">
+            <MutilWidget y="220" data_type2="DATA_DISTANCEUNIT" mutil_widget_count="3" x="75" data_type="DATA_DISTANCE" align="DIGIT_ALIGN_CENTER_RIGHT" filter_color="40242" offset_distance_y="0" data_type1="DATA_DISTANCEICON" type="static" internal_position="DIGIT_ALIGN_CENTER_CENTER" res_dir_id="A009"/>
+        </Widget>
+        <Widget widget_type="MUTILWIDGET">
+            <MutilWidget y="220" data_type2="DATA_DISTANCE" mutil_widget_count="3" x="75" data_type="DATA_DISTANCEUNIT" align="DIGIT_ALIGN_CENTER_RIGHT" filter_color="40242" offset_distance_y="0" data_type1="DATA_DISTANCEICON" type="static" internal_position="DIGIT_ALIGN_CENTER_RIGHT" res_dir_id="A010"/>
+        </Widget>
+        <Widget widget_type="MUTILWIDGET">
+            <MutilWidget y="212" data_type2="DATA_KCALUNIT" mutil_widget_count="3" x="115" data_type="DATA_KCALICON" label="layer 4 - 多组件" align="DIGIT_ALIGN_CENTER_RIGHT" filter_color="40242" offset_distance_y="0" data_type1="DATA_CALORIE" type="static" internal_position="DIGIT_ALIGN_CENTER_LEFT" res_dir_id="A005"/>
+        </Widget>
+        <Widget widget_type="MUTILWIDGET">
+            <MutilWidget y="212" data_type2="DATA_KCALUNIT" mutil_widget_count="3" x="115" data_type="DATA_CALORIE" align="DIGIT_ALIGN_CENTER_RIGHT" filter_color="40242" offset_distance_y="0" data_type1="DATA_KCALICON" type="static" internal_position="DIGIT_ALIGN_CENTER_CENTER" res_dir_id="A006"/>
+        </Widget>
+        <Widget widget_type="MUTILWIDGET">
+            <MutilWidget y="212" data_type2="DATA_CALORIE" mutil_widget_count="3" x="115" data_type="DATA_KCALUNIT" align="DIGIT_ALIGN_CENTER_RIGHT" filter_color="40242" offset_distance_y="0" data_type1="DATA_KCALICON" type="static" internal_position="DIGIT_ALIGN_CENTER_RIGHT" res_dir_id="A007"/>
+        </Widget>
+        <Widget widget_type="SINGLEIMAGE">
+            <SingleImage y="4" x="6" data_type="DATA_BATTERY" label="layer 3 - 静态图" align="DIGIT_ALIGN_CENTER_LEFT" filter_color="40242" offset_distance_y="0" type="static" res_dir_id="A004"/>
+        </Widget>
+        <Widget widget_type="SINGLEIMAGE">
+            <SingleImage y="4" x="6" data_type="DATA_BATTERT_CHARGING" label="layer 2 - 静态图" align="DIGIT_ALIGN_CENTER_LEFT" filter_color="40242" offset_distance_y="0" type="static" res_dir_id="A003"/>
+        </Widget>
+        <Widget widget_type="MUTILWIDGET">
+            <MutilWidget y="18" data_type2="DATA_DISTURB" mutil_widget_count="3" x="7" data_type="DATA_BLUETOOTH_STATUS" label="layer 1 - 多组件" align="DIGIT_ALIGN_CENTER_LEFT" filter_color="40242" offset_distance_y="0" data_type1="DATA_UNREADMSG_STATE" type="static" internal_position="DIGIT_ALIGN_CENTER_LEFT" res_dir_id="A000"/>
+        </Widget>
+        <Widget widget_type="MUTILWIDGET">
+            <MutilWidget y="18" data_type2="DATA_DISTURB" mutil_widget_count="3" x="7" data_type="DATA_UNREADMSG_STATE" align="DIGIT_ALIGN_CENTER_LEFT" filter_color="40242" offset_distance_y="0" data_type1="DATA_BLUETOOTH_STATUS" type="static" internal_position="DIGIT_ALIGN_CENTER_CENTER" res_dir_id="A001"/>
+        </Widget>
+        <Widget widget_type="MUTILWIDGET">
+            <MutilWidget y="18" data_type2="DATA_UNREADMSG_STATE" mutil_widget_count="3" x="7" data_type="DATA_DISTURB" align="DIGIT_ALIGN_CENTER_LEFT" filter_color="40242" offset_distance_y="0" data_type1="DATA_BLUETOOTH_STATUS" type="static" internal_position="DIGIT_ALIGN_CENTER_RIGHT" res_dir_id="A002"/>
+        </Widget>
+    </TemplateWatch>
+</providers>
